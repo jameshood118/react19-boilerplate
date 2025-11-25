@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    // Sets the target JavaScript version for compilation
+    "target": "es2020",
+    // Specifies the module system for the generated code
+    "module": "esnext",
+    // Determines how JSX is handled in .tsx files (use the modern 'react-jsx' which doesn't need 'import React')
+    "jsx": "react-jsx",
+    // Strictness settings
+    "strict": true,
+    // Ensure all code paths return a value
+    "noImplicitReturns": true,
+    // Ensure case-sensitive file imports
+    "forceConsistentCasingInFileNames": true,
+    // Enable all strict checks
+    "esModuleInterop": true,
+    // For module resolution (Node.js style)
+    "moduleResolution": "node",
+    // Enables importing modules that don't have default exports with `import x from 'y'`
+    "allowSyntheticDefaultImports": true,
+    // Generates declaration files (.d.ts) for types
+    "declaration": true,
+    // Output directory for declaration files
+    "outDir": "./dist",
+    // Base directory for sources
+    "rootDir": "./src",
+    // Enables experimental decorators
+    "experimentalDecorators": true,
+    // Specify output directory for the compiled code
+    "allowJs": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true
+  },
+  "include": [
+    "src"
+  ]
+}
