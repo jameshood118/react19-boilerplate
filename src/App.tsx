@@ -43,7 +43,7 @@ const App: React.FC = () => {
           </Button>
           <Button 
             variant="outlined" 
-            color="secondary" 
+            color="warning" 
             size="large"
           >
             View Config Files
